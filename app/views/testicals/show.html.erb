@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Make:</strong>
+  <%= @testical.make %>
+</p>
+
+<p>
+  <strong>Model:</strong>
+  <%= @testical.model %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @testical.year %>
+</p>
+
+<%= link_to 'Edit', edit_testical_path(@testical) %> |
+<%= link_to 'Back', testicals_path %>

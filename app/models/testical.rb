@@ -1,0 +1,2 @@
+class Testical < ApplicationRecord
+end
